@@ -4,3 +4,54 @@ target/
 .idea/
 *.log
 .DS_Store
+
+# More IDE/editor stuff
+.vscode/
+*.ipr
+*.iws
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.apt_generated/
+.factorypath
+.metadata/
+
+# Java/Build extras
+out/
+.build/
+.gradle/
+build/
+
+# Logs & temp
+logs/
+*.log.*
+tmp/
+*.tmp
+*.pid
+*.pid.lock
+
+# Local env & secrets
+.env
+.env.*
+application-local.yml
+application-local.properties
+application-*.local.yml
+application-*.local.properties
+*.secrets.*
+*.secret
+
+# Keys / certs / keystores
+*.jks
+*.p12
+*.pem
+*.key
+*.crt
+
+# Embedded DBs
+*.h2.db
+*.mv.db
+*.trace.db
+derby.log
